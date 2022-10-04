@@ -16,13 +16,8 @@ class MyApp extends StatelessWidget {
     title: "Rinza Garments",
 
     home: Scaffold(
-      appBar: AppBar(
-        leading: IconButton(
-          icon: const Icon(Icons.menu),
-					tooltip: "Menu",
-          onPressed: (){},
-        ),
-				
+     	drawer: const NavBar(),
+			appBar: AppBar(
 				actions: [
 					IconButton(
 						onPressed: (){},	
@@ -40,476 +35,17 @@ class MyApp extends StatelessWidget {
 				crossAxisCount: 2,
 				mainAxisSpacing: 20.0,
 				crossAxisSpacing: 10.0,
-						children: [
-						
-							Material(
-								borderRadius: BorderRadius.circular(20),	
-								clipBehavior: Clip.antiAliasWithSaveLayer,
-								elevation: 20,
-								color: imageDesc,
-								child: InkWell(
-									splashColor: Colors.indigoAccent[100],
-									onTap: (){},
-									child: Column(
-										mainAxisSize: MainAxisSize.min,
-										children:[ 
-											Ink.image(
-												image: const AssetImage('assets/images/dress_placeholder1.jpg'),
-												height: 150,
-												width: 190,
-												fit: BoxFit.cover,
-											),
-											const Text(
-												"Green Sleevless",
-												style: TextStyle(),
-											),
-											const Text(
-												"Size: XXL"
-											),
-										]
-									),
-								),
-							),
-						
-	
-							Material(
-								borderRadius: BorderRadius.circular(20),	
-								clipBehavior: Clip.antiAliasWithSaveLayer,
-								elevation: 20,
-								color: imageDesc,
-								child: InkWell(
-									splashColor: Colors.indigoAccent[100],
-									onTap: (){},
-									child: Column(
-										mainAxisSize: MainAxisSize.min,
-										children:[ 
-											Ink.image(
-												image: const AssetImage('assets/images/dress_placeholder1.jpg'),
-												height: 150,
-												width: 190,
-												fit: BoxFit.cover,
-											),
-											const Text(
-												"Green Sleevless",
-												style: TextStyle(),
-											),
-											const Text(
-												"Size: XXL"
-											),
-										]
-									),
-								),
-							),
-
-
-							Material(
-								borderRadius: BorderRadius.circular(20),	
-								clipBehavior: Clip.antiAliasWithSaveLayer,
-								elevation: 20,
-								color: imageDesc,
-								child: InkWell(
-									splashColor: Colors.indigoAccent[100],
-									onTap: (){},
-									child: Column(
-										mainAxisSize: MainAxisSize.min,
-										children:[ 
-											Ink.image(
-												image: const AssetImage('assets/images/dress_placeholder1.jpg'),
-												height: 150,
-												width: 190,
-												fit: BoxFit.cover,
-											),
-											const Text(
-												"Green Sleevless",
-												style: TextStyle(),
-											),
-											const Text(
-												"Size: XXL"
-											),
-										]
-									),
-								),
-							),
-
-
-							Material(
-								borderRadius: BorderRadius.circular(20),	
-								clipBehavior: Clip.antiAliasWithSaveLayer,
-								elevation: 20,
-								color: imageDesc,
-								child: InkWell(
-									splashColor: Colors.indigoAccent[100],
-									onTap: (){},
-									child: Column(
-										mainAxisSize: MainAxisSize.min,
-										children:[ 
-											Ink.image(
-												image: const AssetImage('assets/images/dress_placeholder1.jpg'),
-												height: 150,
-												width: 190,
-												fit: BoxFit.cover,
-											),
-											const Text(
-												"Green Sleevless",
-												style: TextStyle(),
-											),
-											const Text(
-												"Size: XXL"
-											),
-										]
-									),
-								),
-							),
-
-							Material(
-								borderRadius: BorderRadius.circular(20),	
-								clipBehavior: Clip.antiAliasWithSaveLayer,
-								elevation: 20,
-								color: imageDesc,
-								child: InkWell(
-									splashColor: Colors.indigoAccent[100],
-									onTap: (){},
-									child: Column(
-										mainAxisSize: MainAxisSize.min,
-										children:[ 
-											Ink.image(
-												image: const AssetImage('assets/images/dress_placeholder1.jpg'),
-												height: 150,
-												width: 190,
-												fit: BoxFit.cover,
-											),
-											const Text(
-												"Green Sleevless",
-												style: TextStyle(),
-											),
-											const Text(
-												"Size: XXL"
-											),
-										]
-									),
-								),
-							),
-
-							Material(
-								borderRadius: BorderRadius.circular(20),	
-								clipBehavior: Clip.antiAliasWithSaveLayer,
-								elevation: 20,
-								color: imageDesc,
-								child: InkWell(
-									splashColor: Colors.indigoAccent[100],
-									onTap: (){},
-									child: Column(
-										mainAxisSize: MainAxisSize.min,
-										children:[ 
-											Ink.image(
-												image: const AssetImage('assets/images/dress_placeholder1.jpg'),
-												height: 150,
-												width: 190,
-												fit: BoxFit.cover,
-											),
-											const Text(
-												"Green Sleevless"
-											),
-											const Text(
-												"Size: XXL"
-											),
-										]
-									),
-								),
-							),
-
-          	
-						Material(
-								borderRadius: BorderRadius.circular(20),	
-								clipBehavior: Clip.antiAliasWithSaveLayer,
-								elevation: 20,
-								color: imageDesc,
-								child: InkWell(
-									splashColor: Colors.indigoAccent[100],
-									onTap: (){},
-									child: Column(
-										mainAxisSize: MainAxisSize.min,
-										children:[ 
-											Ink.image(
-												image: const AssetImage('assets/images/dress_placeholder1.jpg'),
-												height: 150,
-												width: 190,
-												fit: BoxFit.cover,
-											),
-											const Text(
-												"Green Sleevless"
-											),
-											const Text(
-												"Size: XXL"
-											),
-										]
-									),
-								),
-							),
-
-					Material(
-								borderRadius: BorderRadius.circular(20),	
-								clipBehavior: Clip.antiAliasWithSaveLayer,
-								elevation: 20,
-								color: imageDesc,
-								child: InkWell(
-									splashColor: Colors.indigoAccent[100],
-									onTap: (){},
-									child: Column(
-										mainAxisSize: MainAxisSize.min,
-										children:[ 
-											Ink.image(
-												image: const AssetImage('assets/images/dress_placeholder1.jpg'),
-												height: 150,
-												width: 190,
-												fit: BoxFit.cover,
-											),
-											const Text(
-												"Green Sleevless"
-											),
-											const Text(
-												"Size: XXL"
-											),
-										]
-									),
-								),
-							),
-
-
-							Material(
-								borderRadius: BorderRadius.circular(20),	
-								clipBehavior: Clip.antiAliasWithSaveLayer,
-								elevation: 20,
-								color: imageDesc,
-								child: InkWell(
-									splashColor: Colors.indigoAccent[100],
-									onTap: (){},
-									child: Column(
-										mainAxisSize: MainAxisSize.min,
-										children:[ 
-											Ink.image(
-												image: const AssetImage('assets/images/dress_placeholder1.jpg'),
-												height: 150,
-												width: 190,
-												fit: BoxFit.cover,
-											),
-											const Text(
-												"Green Sleevless",
-												style: TextStyle(),
-											),
-											const Text(
-												"Size: XXL"
-											),
-										]
-									),
-								),
-							),
-						
-	
-							Material(
-								borderRadius: BorderRadius.circular(20),	
-								clipBehavior: Clip.antiAliasWithSaveLayer,
-								elevation: 20,
-								color: imageDesc,
-								child: InkWell(
-									splashColor: Colors.indigoAccent[100],
-									onTap: (){},
-									child: Column(
-										mainAxisSize: MainAxisSize.min,
-										children:[ 
-											Ink.image(
-												image: const AssetImage('assets/images/dress_placeholder1.jpg'),
-												height: 150,
-												width: 190,
-												fit: BoxFit.cover,
-											),
-											const Text(
-												"Green Sleevless",
-												style: TextStyle(),
-											),
-											const Text(
-												"Size: XXL"
-											),
-										]
-									),
-								),
-							),
-
-
-							Material(
-								borderRadius: BorderRadius.circular(20),	
-								clipBehavior: Clip.antiAliasWithSaveLayer,
-								elevation: 20,
-								color: imageDesc,
-								child: InkWell(
-									splashColor: Colors.indigoAccent[100],
-									onTap: (){},
-									child: Column(
-										mainAxisSize: MainAxisSize.min,
-										children:[ 
-											Ink.image(
-												image: const AssetImage('assets/images/dress_placeholder1.jpg'),
-												height: 150,
-												width: 190,
-												fit: BoxFit.cover,
-											),
-											const Text(
-												"Green Sleevless",
-												style: TextStyle(),
-											),
-											const Text(
-												"Size: XXL"
-											),
-										]
-									),
-								),
-							),
-
-
-							Material(
-								borderRadius: BorderRadius.circular(20),	
-								clipBehavior: Clip.antiAliasWithSaveLayer,
-								elevation: 20,
-								color: imageDesc,
-								child: InkWell(
-									splashColor: Colors.indigoAccent[100],
-									onTap: (){},
-									child: Column(
-										mainAxisSize: MainAxisSize.min,
-										children:[ 
-											Ink.image(
-												image: const AssetImage('assets/images/dress_placeholder1.jpg'),
-												height: 150,
-												width: 190,
-												fit: BoxFit.cover,
-											),
-											const Text(
-												"Green Sleevless",
-												style: TextStyle(),
-											),
-											const Text(
-												"Size: XXL"
-											),
-										]
-									),
-								),
-							),
-
-							Material(
-								borderRadius: BorderRadius.circular(20),	
-								clipBehavior: Clip.antiAliasWithSaveLayer,
-								elevation: 20,
-								color: imageDesc,
-								child: InkWell(
-									splashColor: Colors.indigoAccent[100],
-									onTap: (){},
-									child: Column(
-										mainAxisSize: MainAxisSize.min,
-										children:[ 
-											Ink.image(
-												image: const AssetImage('assets/images/dress_placeholder1.jpg'),
-												height: 150,
-												width: 190,
-												fit: BoxFit.cover,
-											),
-											const Text(
-												"Green Sleevless",
-												style: TextStyle(),
-											),
-											const Text(
-												"Size: XXL"
-											),
-										]
-									),
-								),
-							),
-
-							Material(
-								borderRadius: BorderRadius.circular(20),	
-								clipBehavior: Clip.antiAliasWithSaveLayer,
-								elevation: 20,
-								color: imageDesc,
-								child: InkWell(
-									splashColor: Colors.indigoAccent[100],
-									onTap: (){},
-									child: Column(
-										mainAxisSize: MainAxisSize.min,
-										children:[ 
-											Ink.image(
-												image: const AssetImage('assets/images/dress_placeholder1.jpg'),
-												height: 150,
-												width: 190,
-												fit: BoxFit.cover,
-											),
-											const Text(
-												"Green Sleevless"
-											),
-											const Text(
-												"Size: XXL"
-											),
-										]
-									),
-								),
-							),
-
-          	
-						Material(
-								borderRadius: BorderRadius.circular(20),	
-								clipBehavior: Clip.antiAliasWithSaveLayer,
-								elevation: 20,
-								color: imageDesc,
-								child: InkWell(
-									splashColor: Colors.indigoAccent[100],
-									onTap: (){},
-									child: Column(
-										mainAxisSize: MainAxisSize.min,
-										children:[ 
-											Ink.image(
-												image: const AssetImage('assets/images/dress_placeholder1.jpg'),
-												height: 150,
-												width: 190,
-												fit: BoxFit.cover,
-											),
-											const Text(
-												"Green Sleevless"
-											),
-											const Text(
-												"Size: XXL"
-											),
-										]
-									),
-								),
-							),
-
-					Material(
-								borderRadius: BorderRadius.circular(20),	
-								clipBehavior: Clip.antiAliasWithSaveLayer,
-								elevation: 20,
-								color: imageDesc,
-								child: InkWell(
-									splashColor: Colors.indigoAccent[100],
-									onTap: (){},
-									child: Column(
-										mainAxisSize: MainAxisSize.min,
-										children:[ 
-											Ink.image(
-												image: const AssetImage('assets/images/dress_placeholder1.jpg'),
-												height: 150,
-												width: 190,
-												fit: BoxFit.cover,
-											),
-											const Text(
-												"Green Sleevless"
-											),
-											const Text(
-												"Size: XXL"
-											),
-										]
-									),
-								),
-							),
-
-
+						children: const <Widget>[
+							Item(),
+							Item(),
+							Item(),
+							Item(),
+							Item(),
+							Item(),
+							Item(),
+							Item(),
+							Item(),
+							Item(),
 						],
 			),
 			backgroundColor: Colors.amberAccent[100],
@@ -518,3 +54,80 @@ class MyApp extends StatelessWidget {
   }
 }
 
+class NavBar extends StatelessWidget {
+  const NavBar({super.key});
+
+  @override
+  Widget build(BuildContext context) {
+    return Drawer(
+			width: 200,
+			child: ListView(
+				children: <Widget>[
+					ListTile(
+						leading: const Icon(Icons.home, color: Colors.indigo),
+						title: const Text("Home"),
+						onTap: (){},
+					),
+					ListTile(
+						leading: const Icon(Icons.favorite, color: Colors.pink,),
+						title: const Text("Favorites"),
+						onTap: (){},
+					),
+					ListTile(
+						leading: const Icon(Icons.share, color: Colors.green,),
+						title: const Text("Share"),
+						onTap: (){},
+					),
+					ListTile(
+						leading: const Icon(Icons.description, color: Colors.blue),
+						title: const Text("About"),
+						onTap: (){},
+					),
+					const Divider(),
+					ListTile(
+						leading: const Icon(Icons.exit_to_app, color: Colors.red,),
+						title: const Text("Exit"),
+						onTap: (){},
+					),
+				],
+			),	
+		);
+  }
+}
+
+
+class Item extends StatelessWidget {
+  const Item({super.key});
+
+  @override
+  Widget build(BuildContext context) {
+  
+		return	Material(
+								borderRadius: BorderRadius.circular(20),	
+								clipBehavior: Clip.antiAliasWithSaveLayer,
+								elevation: 20,
+								color: imageDesc,
+								child: InkWell(
+									splashColor: Colors.indigoAccent[100],
+									onTap: (){},
+									child: Column(
+										mainAxisSize: MainAxisSize.min,
+										children:[ 
+											Ink.image(
+												image: const AssetImage('assets/images/dress_placeholder1.jpg'),
+												height: 150,
+												width: 190,
+												fit: BoxFit.cover,
+											),
+											const Text(
+												"Green Sleevless"
+											),
+											const Text(
+												"Size: XXL"
+											),
+										]
+									),
+								),
+							);
+	}
+}
